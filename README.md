@@ -68,3 +68,44 @@ _이텔릭_
 
 > 남의 말이나 글에서 직접 또는 간접으로 따온 문장.  
 > (네이버 국어 사전)
+
+# 인라인(inline) 코드 강조
+
+css에서 `background` 혹은 `background-image` 속성으로 요소에 배경 이미지를
+삽입할수 있습니다.
+
+# 블록(block) 코드 강조
+
+```html
+<a href="https://naver.com" title="NAVER로 이동" target="_black">NAVER</a>
+```
+
+```javascript
+const foo = "foo";
+```
+
+# 표 (table)
+
+position 속성
+
+| 값       |       의미        | 기본값 |
+| -------- | :---------------: | -----: |
+| static   |     기준 없음     |      O |
+| relative |     요소 자신     |      X |
+| absolute | 위치 상 부모 요소 |      X |
+| fixed    |      뷰포트       |      X |
+
+# 원시 HTML(Raw HTML)
+
+동해물과 <u>백두산</u>이 마르고 닳도록<br>
+하느님이 보우하사 우리나라만세
+
+<a href="https://naver.com" title="NAVER로 이동" target="_black">NAVER</a>
+
+# 수평선(Horizontal Rule)
+
+---
+
+---
+
+---
